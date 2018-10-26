@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feel Life</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="icon" href="images/logo.jpg" type="image/gif" sizes="16x16">
+
+	<script>
+	$(document).ready(function(){
+	  $("a").on('click', function(event) {
+	    if (this.hash !== "") {
+	      event.preventDefault();
+	      var hash = this.hash;
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 800, function(){
+	        window.location.hash = hash;
+	      });
+	    } 
+	  });
+	});
+	</script>
+</head>
+
+<body>
+	<!-- <nav class="navbar navbar-light bg-dark text-white">
+	  <a class="navbar-brand text-white" href="#">
+	    <img src="images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+	    Bootstrap
+	  </a>
+		
+	   <div class="navbar-nav" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	    </ul>
+	   </div>
+	</nav> -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">      Healthify</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section4">  Home  </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section2">  Want to Stay Healthy?  </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section3">  Calculate BMI  </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section5">  Get an Expert Advice!   </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section6">  Our Advisor  </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#section7">  About Us  </a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<section id="section4">
+	<section class="company-heading intro-type" id="parallax-one">
+	   <div id="container">
+	      <div class="row product-title-info">
+	         <div class="col-md-12">
+	            <h1>
+	               LET'S DETOX
+	            </h1>
+		        <div class="box">
+		            <a class="ct-btn-scroll ct-js-btn-scroll"  href="#section2"><img alt="Arrow Down Icon" src="images/arrow-down-1.gif"></a>
+	        	</div>
+	         </div>
+	      </div>
+	   </div>
+	   <div class="parallax" id="parallax-cta" style="background-image:url(https://sadhana.bhaktimarga.org/sites/default/files/media/image/2017-05/aky-hero_1.jpg);">
+	      &nbsp;
+	   </div>
+	</section>
+	</section>
+
+		<!-- <div class="main">
+		   <section id="section2">
+		      <div class="container jumbo">
+		         <div class="jumbotron">
+		            <h2>Let Big Data Change the Game</h2>
+		            <p>WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
+		            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		         </div>
+		     </div>
+		   </section>
+		</div> 
+	</div>-->
+<section id="section2">
+	<br>
+	<br>
+	<div class="between alert alert-warning" role="alert">
+		LET'S BE HEALTHY | LET'S STAY HEALTHY
+	</div>
+
+	<div class="container">
+	  <div class="row">
+	    <div class="col-4">
+	    	<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F04%2Ftime-health-stock-healthy-food.jpg&w=800&q=85" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">This Kind of Diet May Lower the Risk of Dying from Breast Cancer</h5>
+			    <p class="card-text">We are what we eat, the old cliché goes, and there’s plenty of evidence to support it: eating healthy foods really can lead to a healthier life.</p>
+			    <a href="http://time.com/5289246/low-fat-diet-breast-cancer/" class="btn btn-danger">Read More</a>
+			  </div>
+			</div>
+	    </div>
+	    <div class="col-8">
+	    <div class="border">
+	    	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100" src="https://www.wikihow.com/images/thumb/8/8c/Gain-Weight-Step-5-Version-6.jpg/aid75617-v4-728px-Gain-Weight-Step-5-Version-6.jpg.webp" style="height: 480px;" alt="First slide">
+				    <div class="infocar carousel-caption d-none d-md-block">
+						<h1 class="infoheal">1.</h1>
+						<p class="infoheal">Choose food that contain minimal amounts of unhealthy fats</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://www.wikihow.com/images/thumb/c/c4/Get-Energy-Fast-Step-15.jpg/aid75617-v4-728px-Get-Energy-Fast-Step-15.jpg.webp" style="height: 480px;" alt="Second slide">
+			    	<div class="infocar carousel-caption d-none d-md-block">
+						<h1 class="infoheal">2.</h1>
+						<p class="infoheal">Eat healthy fats in moderation.</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://www.wikihow.com/images/thumb/0/06/Lose-30-Pounds-Step-7-Version-2.jpg/aid75617-v4-728px-Lose-30-Pounds-Step-7-Version-2.jpg.webp" style="height: 480px;" alt="Third slide">
+			    	<div class="infocar carousel-caption d-none d-md-block">
+						<h1 class="infoheal">3.</h1>
+						<p class="infoheal">Select foods that are low in both sugar and highly refined carbohydrates.</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://www.wikihow.com/images/thumb/9/98/Cleanse-Your-Kidneys-Step-3-Version-3.jpg/aid75617-v4-728px-Cleanse-Your-Kidneys-Step-3-Version-3.jpg.webp" style="height: 480px;" alt="Fourth slide">
+			    	<div class="infocar carousel-caption d-none d-md-block">
+						<h1 class="infoheal">4.</h1>
+						<p class="infoheal">Eat a variety of different whole foods instead of eating processed foods.</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://www.wikihow.com/images/thumb/9/91/Cleanse-the-Lymph-System-Step-4-Version-3.jpg/aid75617-v4-728px-Cleanse-the-Lymph-System-Step-4-Version-3.jpg.webp" style="height: 480px;" alt="Fifth slide">
+			    	<div class="infocar carousel-caption d-none d-md-block">
+						<h1 class="infoheal">5.</h1>
+						<p class="infoheal">Incorporate organic foods.</p>
+					</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+	    </div>
+	  </div>
+	</div>
+	</section>
+	<br><br>
+<section id="section3">
+	<br><br>
+	<section class="bg-dark">
+	<div class="between alert alert-warning" role="alert">
+		LET'S BE HEALTHY    |    CALCULATE YOUR BMI    |    LET'S STAY HEALTHY
+	</div>
+	<br>
+	<br>
+
+	<div class="container">
+		<div class="row">	
+			<div class="col-8">
+				<iframe src="https://bmicalculatorindia.com/widgets/widget.php?t=720x300" align="middle" width="720" height="300" frameborder="0"></iframe>
+			</div>		
+			<div class="col-4">
+				<div class="card" style="width: 22rem;">
+					<img class="card-img-top" src="https://bmicalculatorindia.com/wp-content/uploads/2015/02/Superfoods.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Top 15 Superfoods for weight loss</h5>
+						<p class="card-text">Superfoods have been around forever. In ancient times, civilizations would use these foods as money, for religious ceremonies and as staples in their diet. However, it hasn’t been until recently that we’ve…</p>
+						<a href="https://bmicalculatorindia.com/weight-loss-advice/top-15-superfoods-weight-loss/" class="btn btn-danger">Read More</a>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+	</section>
+</section>
+	
+<section class="bg-dark" id="section5">
+	<br><br>
+</section>
+	<section>	
+	<div class="between alert alert-warning" role="alert">
+		LET'S BE HEALTHY    |    HAVE AN EXPERT ADVICE    |    LET'S STAY HEALTHY
+	</div>
+	<div class="container">
+		<div class="row">
+			<div  class="col-6 stayhealthy">
+				<div class="card mb-3">
+				<img class="card-img-top" src="images/stay2.jpg" height="180" width="780" alt="Card image cap">
+					<div class="card-body">
+					<h5 class="card-title">Steps to achieve a normal weight</h5>
+					<p class="card-text">Adopting a healthy, balanced diet can assist with achieving a normal, healthy weight for your height and age, but it is important to gain weight gradually rather than in a rush. Increasing weight the right way is crucial.
+					Avoid foods that increase your body fat rather than your lean body mass such as chocolate, cakes and other high-calorie foods.
+					Aiming for three meals and three snacks a day, involving starchy carbohydrates – such as pasta, rice or potatoes – as well as fruit and vegetables are good healthy eating principles to base your diet on to achieve a healthy weight.
+					</p>
+					<p class="card-text"><small class="text-muted">Steve Odland</small></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div id="accordion">
+				  	<div class="card">
+					    <div class="card-header" id="headingOne">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					         What can happen if your BMI is too high?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					      <div class="card-body">
+					        If you are overweight (with a BMI over 25) and physically inactive, you may develop: cardiovascular (heart and blood circulation) disease. gallbladder disease. high blood pressure (hypertension)
+					      </div>
+					    </div>
+  					</div>
+
+				  	<div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          What are the health risks associated with being underweight?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body">
+					        There are certain health risks associated with being underweight or having poor nutrition. These risks include: malnutrition, vitamin deficiencies, or anemia. osteoporosis from too little vitamin D and calcium.
+					      </div>
+					    </div>
+				  	</div>
+				  	<div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          What are the limitations of the BMI?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body">
+					       The clinical limitations of BMI should be considered. BMI is a surrogate measure of body fatness because it is a measure of excess weight rather than excess body fat. Factors such as age, sex, ethnicity, and muscle mass can influence the relationship between BMI and body fat.
+					      </div>
+					    </div>
+				  	</div>
+				  	<div class="card">
+					    <div class="card-header" id="headingFour">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					          Do young men have different health risks than young women?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+					      <div class="card-body">
+					       Yes. Young men don’t wear seat belts as often as young women do. They’re also more likely to carry weapons, get into physical fights, use smokeless tobacco or marijuana, drink alcohol heavily, and have more sexual partners. On the other hand, young women have some special risks. They try to commit suicide more often. They also try to lose weight in harmful ways more often than young men.
+					      </div>
+					    </div>
+				  	</div>
+				  	<div class="card">
+					    <div class="card-header" id="headingFive">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+					          What is the most unhealthy food in the world?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+					      <div class="card-body">
+					       In addition, other harmful ingredients such as preservatives and trans fats make these foods even more damaging to the human body. Some of the most unhealthy foods in the world include high-sugar cereals, sugary coffee drinks, canned soup, margarine, soda, processed lunch meats, ice cream and frozen french fries.
+					      </div>
+					    </div>
+				  	</div>
+				  	<div class="card">
+					    <div class="card-header" id="headingSix">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+					          Is banana is good for weight loss?
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+					      <div class="card-body">
+					       Bananas Are High in Fiber, But Low in Calories. ... However, other studies have found that extra fiber in the diet does not affect people's fullness or calorie intake (16). Bottom Line: Bananas are a good source of fiber. A high fiber intake has been linked to reduced body weight and a number of health benefits.
+					      </div>
+					    </div>
+				  	</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+	</section>
+	
+<section id="section6">
+	<br><br>
+	<section class="bg-dark">
+	<div class="between alert alert-warning" role="alert">
+		LET'S BE HEALTHY    |    OUR ADVISOR  OUR MOTIVATOR     |    LET'S STAY HEALTHY
+	</div>
+	<div class="container2">
+		<div class="row">
+			<div class="col-7">
+			 <div class="card mb-3">		  
+			  <div class="card-body">
+			    <h5 class="card-title">“The purpose of training is to tighten up the slack, toughen the body and polish the spirit”.</h5>
+			    <p class="card-text">
+			    	It’s no surprise that we are on a slippery slope when it comes to healthcare. With access and affordability to health insurance hanging in the balance, it’s more important than ever to take care of your mind, body and spirit.
+			    </p><p class="card-text">
+					With today’s technology and superior level of healthcare in the world you might be thinking why it is necessary to be concerned about fitness and well being. Why is it so important?
+					Health focuses on the physical and mental body being free from illness, injury, or disease. Health is a goal you work to achieve. For example, managing chronic conditions such as lowering your blood pressure or controlling diabetes are goals to be reached, as are losing weight or strengthening your heart through cardiovascular exercise.
+				</p><p class="card-text">
+					Many chronic diseases, like hypertension and type-2 diabetes, are on the rise. The most alarming statistics show how they are becoming increasingly commonplace in children. The most reasons leading to these are unhealthy diet and weight gain.
+				</p>
+				<a href="harticle.html" class="btn btn-danger">Read More</a>
+			    <small class="text-muted" id="Neha">Neha Chattopadhyay</small> <img src="images/neha.gif" width="50px"; height="50px";>  
+			  </div>
+			 </div>	
+			</div>	
+		<div class="col-5">
+			<iframe width="416" height="234" src="https://www.youtube.com/embed/0aNNYEUARAk" align="top" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<p> </p>
+			<iframe width="416" height="234" src="https://www.youtube.com/embed/z_3S2_41_FE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>		
+		</div>
+	</div>
+	</section>
+</section>
+<br><br>
+	<section id="section7">
+	<div class="between alert alert-warning" role="alert">
+		LET'S BE HEALTHY    |    CONTRIBUTORS    |    LET'S STAY HEALTHY
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-4">
+			
+		</div>
+		<div class="col-4">
+			<div class="card" style="width: 20rem;">
+			  <img class="card-img-top" src="images/mypic.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Satyam Singh Chauhan</h5>
+			    <p class="card-text">"There are two rules for Success One: Never reveal everything you know."</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">Tourist of Life</li>
+			    <li class="list-group-item"><a class="logo" href="https://www.facebook.com/SatyamSinghChauhan9090"><img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19761.png" height="40"></a> <a class="logo" href="https://www.instagram.com/satyam.naman/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-png-transparent-background-800x799.png" height="40"></a><a class="logo" href="https://github.com/satyam9090"><img src="images/github.png" height="40"></a></li>
+			  </ul>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>	
+	</section>
+
+</body>
+</html>
